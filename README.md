@@ -17,7 +17,7 @@ Not a monolith. Not a tutorial clone. A **pattern library + experiment notebook*
 | Backend | Python, Go, Node |
 | Mobile | React Native |
 | Web | Next.js, React |
-| Infra | Redis, RabbitMQ, AWS Lambda, S3 |
+| Infra | Redis, BullMQ, RabbitMQ, AWS Lambda, S3 |
 | AI | Python, LangGraph, LangChain, LiveKit |
 
 ## Structure
@@ -39,7 +39,8 @@ forgebench/
 
 | Lab | Path | Status |
 |-----|------|--------|
-| _Add your first lab here_ | | |
+| BullMQ queue fundamentals | [integrations/bullmq/queue-fundamentals](./integrations/bullmq/queue-fundamentals/) | `draft` |
+| Mini notification service | [lld/notification-system](./lld/notification-system/) | `draft` |
 
 ## How to use
 
@@ -57,5 +58,5 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for lab conventions and folder template
 
 ```bash
 # Each lab is self-contained — cd into it and follow its README
-cd lld/rate-limiter   # coming soon
+cd integrations/bullmq/queue-fundamentals
 ```
